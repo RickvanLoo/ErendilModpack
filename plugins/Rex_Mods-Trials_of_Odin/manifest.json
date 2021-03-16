@@ -1,0 +1,9 @@
+{
+  "name": "Trials_of_Odin",
+  "description": "This mod increases difficulty. Highly configurable.",
+  "version_number": "1.3.5",
+  "website_url": "https://github.com/nathangeranis/Valheim_Mods/tree/main/TrialsOfOdin/TrialsOfOdin",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.600"
+  ]
+}
