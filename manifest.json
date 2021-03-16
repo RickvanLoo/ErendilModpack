@@ -4,18 +4,6 @@
     "website_url": "https://github.com/RickvanLoo/ErendilModpack",
     "description": "Modpack made for the Erendil Server",
     "dependencies": [
-        "denikson-BepInExPack_Valheim-5.4.800",
-        "Tekla-AutoRepair-5.4.800",
-        "xAfflict-NonrestrictedPortals-1.2.1",
-        "Mydayyy-ServerSideMap-1.2.1",
-        "Xenofell-TorchesEternal-0.2.0",
-        "mtnewton-Gravekeeper-2.2.0",
-        "Xenofell-RememberIPDamnit-0.2.0",
-        "mgway-PaddlePower-1.0.2",
-        "ItsKaa-VChat-1.1.0",
-        "Nexus-FarmGrid-0.1.6",
-        "Masa-FirstPerson-1.0.2",
-        "abearcodes-CraftingWithContainers-1.0.12",
-        "CodeWizards-AntiCheat-0.1.1"
+        "denikson-BepInExPack_Valheim-5.4.800"
     ]
 }

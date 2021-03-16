@@ -1,0 +1,9 @@
+{
+  "name": "FirstPerson",
+  "description": "FPS Camera, with visible hands.",
+  "version_number": "1.0.2",
+  "website_url": "",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.700"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+    "name": "NonrestrictedPortals",
+    "version_number": "1.2.1",
+    "website_url": "https://www.nexusmods.com/valheim/mods/61",
+    "description": "This mod removes the item restriction placed on portals. Players can move items, such as metal ore, through portals. Players can also specify the percentage of the quantity kept when going through portals for each item, or for every item. ",
+    "dependencies": []
+}

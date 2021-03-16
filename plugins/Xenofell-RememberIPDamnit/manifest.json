@@ -1,0 +1,9 @@
+{
+    "name": "RememberIPDamnit",
+    "version_number": "0.2.0",
+    "website_url": "https://github.com/cstamford/ValheimMods",
+    "description": "This mod remembers the last IP (and password!) you entered into the multiplayer Join IP dialogue. Simple as that.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.601"
+    ]
+}
