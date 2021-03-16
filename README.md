@@ -18,5 +18,6 @@ Included Mods:
 - VChat by ItsKaa
 - FirstPerson by Masa
 - CraftingWithContainers by abearcodes
+- FortifySkills by Merlyn42
 
 Note that the included mods are not included as r2modman dependencies but snapshots are taken to assume the server and the clients are running the same version. 

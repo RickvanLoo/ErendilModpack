@@ -1,0 +1,9 @@
+{
+	"name": "FortifySkills",
+	"version_number": "1.2.0",
+	"website_url": "https://gitlab.com/Merlyn/valheimfortifyskills",
+	"description": "Fortify Skills is a mod for Valheim that changes how skills are lost on death. Instead of losing a flat 5% of every skill you now have a new skill level that's only used when you die. On death your skills are set back to their fortified skill level.",
+	"dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.603"
+  ]
+}
