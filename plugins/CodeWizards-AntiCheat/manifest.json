@@ -1,9 +1,0 @@
-{
-    "name": "AntiCheat",
-    "version_number": "0.1.1",
-    "website_url": "https://github.com/CodeWzrds",
-    "description": "Basic cheat prevention via plugin verification",
-    "dependencies": [
-        "denikson-BepInExPack_Valheim-5.4.800"
-    ]
-}
