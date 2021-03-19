@@ -1,6 +1,6 @@
 {
     "name": "ErendilModpack",
-    "version_number": "1.1.3",
+    "version_number": "1.2.0",
     "website_url": "https://github.com/RickvanLoo/ErendilModpack",
     "description": "Modpack made for the Erendil Server",
     "dependencies": [
