@@ -28,6 +28,12 @@ Note that the included mods are not included as r2modman dependencies but snapsh
 Current penalty rules:
 (1.1.0) Gear and consumables are kept on death, materials are left behind in a gravestone. Skills won't drop endlessly but stay at your 'fortified level' minimum. To counter this decrease in difficulty which makes death less important but also less annoying, all mobs are increased by one star, and bosses are tuned much harder.
 
+Changelog (1.2.1):
+Update for 23/03/2021 patch:
+- Updated mods
+- Removed DataRateModifier
+- TrialsOfOdin temporary NOT working! 
+
 Changelog (1.2.0):
 - Applied speed increase to Bosses (Trying to Balance)
 - Changed mob spawning to the following settings:

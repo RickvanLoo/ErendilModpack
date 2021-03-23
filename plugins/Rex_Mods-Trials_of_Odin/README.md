@@ -18,13 +18,6 @@ This mod was created to increase the difficulty, add some mechanics, and make Va
 
 - Toggleable Event System Overhaul: Events can now be bound to the player so that they only receive events they've "unlocked"
 
-### Iron Man Mode
-
-- Toggleable Iron Man Mode: Once your character dies, you get logged out & that character is deleted forever. Try a true Iron Man Run!
-- Toggleable Iron Man Lite: Once your character dies, instead of being deleted, inventory is destroyed & stats are reset to zero. At least you get to keep your base?
-- Toggleable World Breaker Mode: **ONLY** for the hardcore. On death, logs you out, deletes your character & your world. **HAS NOT BEEN TESTED IN MULTIPLAYER, WOULD NOT RECOMMEND. TRY AT YOUR OWN RISK.**
-- Iron Man Mode must be enabled for Iron Man Lite or World Breaker to function.
-
 ## Planned Features
 
 - Allow bosses to spawn their corresponding events during boss fights.
@@ -78,6 +71,48 @@ ForcedPlayerCount = 1
 # Default value: true
 IncreaseMobDifficulty = true
 
+[TrialsOfOdin.Enemies]
+
+## Enable/Disable Increase all mobs (except bosses) by 1 star.
+# Setting type: Boolean
+# Default value: true
+IncreaseMobDifficulty = true
+
+## Chance for monster to spawn between specified LowLevelStart & MedLevelStart. (Default 95%)
+# Setting type: Int32
+# Default value: 95
+LowLevelChance = 95
+
+## Chance for monster to spawn between specified MedLevelStart & HighLevelStart. (Default 4%)
+# Setting type: Int32
+# Default value: 4
+MedLevelChance = 4
+
+## Chance for monster to spawn between specified HighLevelStart & HighestLevel. (Default 1%)
+# Setting type: Int32
+# Default value: 1
+HighLevelChance = 1
+
+## Lowest Level a Monster will spawn (Default 1)
+# Setting type: Int32
+# Default value: 1
+LowLevelStart = 1
+
+## Highest Level of Low Levels, Start of Med Levels (Default 5)
+# Setting type: Int32
+# Default value: 5
+MedLevelStart = 5
+
+## Highest Level of Med Levels, Start of High Levels (Default 8)
+# Setting type: Int32
+# Default value: 8
+HighLevelStart = 8
+
+## Highest Level Possible.
+# Setting type: Int32
+# Default value: 10
+HighestLevel = 10
+
 [TrialsOfOdin.EventSystem]
 
 ## Enable/Disable tying events to players.
@@ -85,22 +120,6 @@ IncreaseMobDifficulty = true
 # Default value: true
 FixEventSystem = true
 
-[TrialsOfOdin.IronMan]
-
-## Enable/Disable Iron Man Mode: Lose all items & Delete Character on Death (Off by default)
-# Setting type: Boolean
-# Default value: false
-IronMan = false
-
-## Enable/Disable Iron Man Lite Mode: Lose all items, stats reset to 0 on Character Death. Use in conjunction with Iron Man Mode above (Off by default)
-# Setting type: Boolean
-# Default value: false
-IronManLite = false
-
-## Enable/Disable WorldBreaker mode: On death, destroys world as well.
-# Setting type: Boolean
-# Default value: false
-WorldBreaker = false
 ```
 
 ---
@@ -123,6 +142,7 @@ If you are installing this manually, do the following
 
 ---
 
+- **V1.4.0**: Removed Iron Man Mode & moved to its own mod per request. Still working on Event System Fix. Updated README to reflect appropriate config values.
 - **V1.3.5**: Changed Game Version checking to check actual version as opposed to string. Tweaked internal difficulty scaling on damage (increased). Fixed health scaling for non-boss enemies. Added same move speed scaling from bosses to regular enemies, as well as added move scaling for flying enemies... Beware the **_Rocketsquito_**. Fixed potential loot drop issues. Fixed bug when enemies died they would change colors. Event system fix still in-progress. Hope to have working with next update.
 - **V1.3.4**: Added support for Game Version _0.147.3_.
 - **V1.3.3**: Fixed issue where loot was not spawning for some enemies.

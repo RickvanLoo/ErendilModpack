@@ -1,9 +1,9 @@
 {
     "name": "ErendilModpack",
-    "version_number": "1.2.0",
+    "version_number": "1.2.1",
     "website_url": "https://github.com/RickvanLoo/ErendilModpack",
     "description": "Modpack made for the Erendil Server",
     "dependencies": [
-        "denikson-BepInExPack_Valheim-5.4.800"
+        "denikson-BepInExPack_Valheim-5.4.900"
     ]
 }

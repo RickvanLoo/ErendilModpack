@@ -1,9 +1,0 @@
-{
-  "name": "Data_Rate_Modifier",
-  "version_number": "1.0.1",
-  "website_url": "https://github.com/valdream",
-  "description": "Configurable data rate modifier for the game's network operations.",
-  "dependencies": [
-    "denikson-BepInExPack_Valheim-5.4.601"
-  ]
-}
