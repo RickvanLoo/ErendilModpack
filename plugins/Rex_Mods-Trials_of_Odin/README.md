@@ -142,6 +142,8 @@ If you are installing this manually, do the following
 
 ---
 
+- **V1.4.2**: Fixed issue where health could be lower than vanilla. Fixed issue where drops were calculating incorrectly at levels 5 and 8 by default.
+- **V1.4.1**: Updated to support Game Version _0.148.6_.
 - **V1.4.0**: Removed Iron Man Mode & moved to its own mod per request. Still working on Event System Fix. Updated README to reflect appropriate config values.
 - **V1.3.5**: Changed Game Version checking to check actual version as opposed to string. Tweaked internal difficulty scaling on damage (increased). Fixed health scaling for non-boss enemies. Added same move speed scaling from bosses to regular enemies, as well as added move scaling for flying enemies... Beware the **_Rocketsquito_**. Fixed potential loot drop issues. Fixed bug when enemies died they would change colors. Event system fix still in-progress. Hope to have working with next update.
 - **V1.3.4**: Added support for Game Version _0.147.3_.
